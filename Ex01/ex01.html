@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso JavaScript</title>
+    <style>
+       @font-face {
+        font-family: 'Love';
+        src: url('OldLondon.ttf') format('truetype'), url('Olondon_.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+       }
+        body{
+            background-color: blueviolet;
+            color: white
+        }
+        h1{
+            font-family: 'Love';
+        }
+        .pseudo{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Olá, mundo!</h1>
+    <h2 class="pseudo">Alvin e os esquilos.</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit totam nihil quis magni eaque dicta eius ex. Expedita itaque, quae amet laudantium praesentium magnam qui veritatis et repellat. Rem, illum?</p>
+    <h2 class="pseudo">Pânico no Lago</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, consequatur facere? Id eum odit, illum iste doloremque aperiam quo aut voluptate. Ratione amet suscipit nihil culpa. Ipsum necessitatibus molestias odio!</p>
+
+    <script>
+        /*window.alert('minha primeira mensagem');
+        window.confirm('está gostando do curso de java?')
+        window.prompt('Escreva seu nome')
+        var n1 = Number.parseFloat(window.prompt('Digite um número: '));
+        var n2 = Number.parseFloat(window.prompt('Digite outro número: '));
+        var s = n1 + n2
+        window.alert('a soma de n1 e n2 é igual a ' + s)
+
+        var mensagem = Number.parseInt(window.prompt('Digite sua idade: '));
+        if(mensagem >= 14 || mensagem > 18){
+            window.alert('Bem-vindo ao nosso site:)');
+        }
+        else{
+            window.alert('Desculpe, mas você não possui idade suficiente para acessar este site')
+        }*/
+        var p1 = window.document.getElementsByTagName('p')[0]
+        p1.style.color = 'black'
+    </script>
+</body>
+</html>
